@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Ini adalah elemen tabel (table) yang digunakan untuk membuat sebuah tabel -->
+    <table>
+        <!-- Ini adalah baris header tabel (table row - tr) -->
+        <tr>
+            <!-- Ini adalah sel header (table header cell - th) -->
+            <th>First_Name</th>
+            <th>Last_Name</th>
+            <th>Marks</th>
+        </tr>
+        <!-- Ini adalah baris dalam tabel (tr) yang berisi sel data (table data cell - td) -->
+        <tr>
+            <!-- Ini adalah sel data (td) dengan isi "Sonoo" -->
+            <td>Sonoo</td>
+            <td>Jaiswal</td>
+            <td>60</td>
+        </tr>
+        <!-- Lanjutan baris sel data (td) -->
+        <tr>
+            <td>James</td>
+            <td>William</td>
+            <td>80</td>
+        </tr>
+        <!-- Lanjutan baris sel data (td) -->
+        <tr>
+            <td>Swati</td>
+            <td>Sironi</td>
+            <td>82</td>
+        </tr>
+        <!-- Lanjutan baris sel data (td) -->
+        <tr>
+            <td>Chetna</td>
+            <td>Singh</td>
+            <td>72</td>
+        </tr>
+    </table>
+    <!-- Ini adalah elemen garis horizontal (horizontal rule) yang digunakan untuk memisahkan konten -->
+    <hr>
+    <!-- Ini adalah elemen baris kosong (line break) yang digunakan untuk membuat baris kosong -->
+    <br>
+
+    <!-- Ini adalah tabel kedua dengan atribut "border" yang mengatur tampilan garis batas tabel -->
+    <table border="1">
+        <!-- Elemen header tabel (tr) dan sel header (th) untuk kolom-kolom tabel -->
+        <tr>
+            <th>First_Name</th>
+            <th>Last_Name</th>
+            <th>Marks</th>
+        </tr>
+        <!-- Elemen data tabel (tr) dan sel data (td) untuk isi tabel -->
+        <tr>
+            <td>Sonoo</td>
+            <td>Jaiswal</td>
+            <td>60</td>
+        </tr>
+        <!-- Lanjutan baris sel data (td) -->
+        <tr>
+            <td>James</td>
+            <td>William</td>
+            <td>80</td>
+        </tr>
+        <!-- Lanjutan baris sel data (td) -->
+        <tr>
+            <td>Swati</td>
+            <td>Sironi</td>
+            <td>82</td>
+        </tr>
+        <!-- Lanjutan baris sel data (td) -->
+        <tr>
+            <td>Chetna</td>
+            <td>Singh</td>
+            <td>72</td>
+        </tr>
+    </table>
+    <!-- Ini adalah elemen tabel ketiga yang menggunakan elemen tabel (table) -->
+    <table>
+        <!-- Elemen baris pertama dengan sel header (th) -->
+        <tr>
+            <th>Name</th>
+            <!-- Ini adalah sel data (td) dengan isi "Ajeet Maurya" -->
+            <td>Ajeet Maurya</td>
+        </tr>
+        <!-- Elemen baris kedua dengan sel header (th) yang memiliki atribut "rowspan" -->
+        <tr>
+            <th rowspan="2">Mobile No.</th>
+            <!-- Ini adalah sel data (td) dengan isi "7503520801" -->
+            <td>7503520801</td>
+        </tr>
+        <!-- Lanjutan baris sel data (td) -->
+        <tr>
+            <td>9555879135</td>
+        </tr>
+    </table>
+    <!-- Ini adalah elemen garis horizontal (horizontal rule) yang digunakan untuk memisahkan konten -->
+    <hr>
+    <!-- Ini adalah elemen tabel keempat yang memiliki elemen caption untuk memberikan judul pada tabel -->
+    <table>
+        <!-- Ini adalah elemen caption yang memberikan judul "Student Records" pada tabel -->
+        <caption>Student Records</caption>
+        <!-- Elemen header tabel (tr) dan sel header (th) untuk kolom-kolom tabel -->
+        <tr>
+            <th>First_Name</th>
+            <th>Last_Name</th>
+            <th>Marks</th>
+        </tr>
+        <!-- Elemen data tabel (tr) dan sel data (td) untuk isi tabel -->
+        <tr>
+            <td>Vimal</td>
+            <td>Jaiswal</td>
+            <td>70</td>
+        </tr>
+        <!-- Lanjutan baris sel data (td) -->
+        <tr>
+            <td>Mike</td>
+            <td>Warn</td>
+            <td>60</td>
+        </tr>
+        <!-- Lanjutan baris sel data (td) -->
+        <tr>
+            <td>Shane</td>
+            <td>Warn</td>
+            <td>42</td>
+        </tr>
+        <!-- Lanjutan baris sel data (td) -->
+        <tr>
+            <td>Jai</td>
+            <td>Malhotra</td>
+            <td>62</td>
+        </tr>
+    </table>
+    <!-- Tabel kedua -->
+    <table border="1"> <!-- "border" mengatur tampilan garis batas tabel -->
+        <tr>
+            <th align="center">First Name</th>
+            <th align="center">Last Name</th>
+            <th align="center">Marks</th>
+        </tr>
+        <tr>
+            <td abbr="FN" align="left" bgcolor="lightblue" char="." charoff="2">John</td>
+            <!-- "abbr" adalah atribut yang mengatur singkatan teks -->
+            <!-- "align" mengatur perataan teks -->
+            <!-- "bgcolor" mengatur warna latar belakang sel -->
+            <!-- "char" mengatur karakter perataan -->
+            <!-- "charoff" mengatur jarak perataan dari karakter -->
+            <td align="center" char="." charoff="2">Doe</td>
+            <td align="right">85</td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" headers="header1 header2">Spanning Two Columns</td>
+            <!-- "colspan" mengatur jumlah kolom yang disatukan oleh sel -->
+            <!-- "headers" menghubungkan sel dengan sel header lainnya -->
+            <td align="center">90</td>
+        </tr>
+        <tr>
+            <td rowspan="2" align="middle" valign="top">Jane</td>
+            <!-- "rowspan" mengatur jumlah baris yang disatukan oleh sel -->
+            <!-- "valign" mengatur perataan vertikal teks -->
+            <td rowspan="2">Smith</td>
+            <td align="baseline">78</td>
+        </tr>
+    </table>
+
+    <!-- Tabel ketiga (dan seterusnya) bisa ditambahkan di sini jika diperlukan -->
+
+</body>
+
+</html>

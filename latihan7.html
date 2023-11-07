@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Ini adalah contoh penggunaan elemen <textarea> dengan atribut "rows" dan "cols" yang mengatur jumlah baris dan kolom tampilan teks -->
+    <textarea rows="9" cols="70">
+    JavaTpoint textarea tag example with rows and columns.
+    </textarea>
+
+    <!-- Text area dengan atribut "autofocus" -->
+    <textarea autofocus>
+        Ini adalah text area dengan atribut "autofocus". Ketika halaman dimuat, fokus langsung ke sini.
+    </textarea>
+
+    <br>
+
+    <!-- Text area dengan atribut "form" dan "maxlength" -->
+    <form action="proses.php" id="form1">
+        <!-- Ini adalah text area yang terhubung ke form dengan ID "form1" dan memiliki batasan karakter maksimum sebanyak 100 -->
+        <textarea form="form1" maxlength="100">
+            Ini adalah text area yang terhubung ke form dengan batasan 100 karakter.
+        </textarea>
+    </form>
+
+    <br>
+
+    <!-- Text area dengan atribut "placeholder" dan "required" -->
+    <form action="proses.php">
+        <!-- Ini adalah text area dengan atribut "placeholder" yang memberikan petunjuk singkat dan "required" yang membuatnya wajib diisi -->
+        <textarea placeholder="Masukkan komentar Anda" required></textarea>
+    </form>
+
+    <br>
+
+    <!-- Text area dengan atribut "wrap" -->
+    <form action="proses.php">
+        <!-- Ini adalah text area dengan atribut "wrap" yang mengatur cara teks dalam text area akan diproses saat pengiriman form -->
+        <textarea wrap="soft">
+            Ini adalah text area dengan atribut "wrap" yang mengatur teks sebagai teks lunak.
+        </textarea>
+    </form>
+    <form action="updates.jsp" id="usrform">
+        <!-- Ini adalah tag form dengan atribut "action" yang menentukan URL tempat data form akan dikirimkan dan "id" yang digunakan untuk mengidentifikasi form -->
+        Name: <input type="text" name="usrname">
+        <!-- Ini adalah input teks dengan atribut "type" yang menentukan tipe input, "name" yang akan digunakan untuk mengidentifikasi nilai ini saat data dikirim -->
+        <input type="submit">
+        <!-- Ini adalah tombol "Submit" yang akan mengirimkan form saat diklik -->
+    </form>
+    <br>
+    <textarea rows="9" cols="70" name="comment" form="usrform">
+        <!-- Ini adalah elemen textarea dengan atribut "rows" dan "cols" yang mengatur dimensi tampilan teks -->
+        Enter text here...
+    </textarea>
+    <!-- Ini adalah bagian teks yang dapat diisi oleh pengguna -->
+    <p>The text area above is outside the form element, but should still be a part of the form.</p>
+    <!-- Ini adalah paragraf yang memberikan penjelasan tentang elemen textarea yang berada di luar elemen form, tetapi masih merupakan bagian dari form. -->
+    <p><b>Note:</b> The form attribute is not supported in Internet Explorer.</p>
+    <!-- Ini adalah catatan yang menjelaskan bahwa atribut "form" tidak didukung dalam Internet Explorer. -->
+
+</body>
+
+</html>
