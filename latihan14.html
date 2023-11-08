@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Form pertama -->
+    <form>
+        <!-- Label untuk input "firstname" -->
+        <label>Enter first name</label><br>
+        <!-- Input teks dengan nama "firstname" -->
+        <input type="text" name="firstname"><br>
+        <!-- Label untuk input "lastname" -->
+        <label>Enter last name</label><br>
+        <!-- Input teks dengan nama "lastname" -->
+        <input type="text" name="lastname"><br>
+        <!-- Paragraf dengan teks catatan -->
+        <p><strong>Note:</strong> The default maximum character length is 20.</p>
+    </form>
+    <hr>
+
+    <!-- Form kedua -->
+    <form>
+        <!-- Label untuk input "firstname" -->
+        <label>Enter User name</label><br>
+        <!-- Input teks dengan nama "firstname" -->
+        <input type="text" name="firstname"><br>
+        <!-- Label untuk input "password" -->
+        <label>Enter Password</label><br>
+        <!-- Input tipe password dengan nama "password" -->
+        <input type="password" name="password"><br>
+        <!-- Tombol submit -->
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+
+    <!-- Form ketiga dengan atribut "action" untuk mengirim data ke situs web eksternal -->
+    <form action="https://www.javatpoint.com/html-tutorial">
+        <!-- Label untuk input "firstname" -->
+        <label>Enter User name</label><br>
+        <!-- Input teks dengan nama "firstname" -->
+        <input type="text" name="firstname"><br>
+        <!-- Label untuk input "password" -->
+        <label>Enter Password</label><br>
+        <!-- Input tipe password dengan nama "password" -->
+        <input type="password" name="password"><br>
+        <!-- Tombol submit -->
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+
+    <!-- Form keempat dengan input teks dan tipe password serta atribut "value" -->
+    <form>
+        <!-- Label untuk input "user-id" -->
+        <label>User id: </label>
+        <!-- Input teks dengan nama "user-id" dan nilai atribut "value" "user" -->
+        <input type="text" name="user-id" value="user">
+        <!-- Label untuk input "pass" -->
+        <label>Password: </label>
+        <!-- Input tipe password dengan nama "pass" dan nilai atribut "value" "pass" -->
+        <input type="password" name="pass" value="pass"><br><br>
+        <!-- Tombol submit dan tombol reset -->
+        <input type="submit" value="login">
+        <input type="reset" value="Reset">
+    </form>
+    <hr>
+
+    <!-- Form kelima dengan input tipe radio -->
+    <form>
+        <!-- Paragraf untuk memilih warna favorit -->
+        <p>Kindly Select your favorite color</p>
+        <!-- Input tipe radio dengan nama "color" dan nilai atribut "value" berbagai warna -->
+        <input type="radio" name="color" value="red"> Red <br>
+        <input type="radio" name="color" value="blue"> Blue <br>
+        <input type="radio" name="color" value="green"> Green <br>
+        <input type="radio" name="color" value="pink"> Pink <br>
+        <!-- Tombol submit -->
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+
+    <!-- Form keenam dengan input tipe checkbox -->
+    <form>
+        <!-- Label untuk input "name" -->
+        <label>Enter your Name:</label>
+        <!-- Input teks dengan nama "name" -->
+        <input type="text" name="name">
+        <!-- Paragraf untuk memilih olahraga favorit -->
+        <p>Kindly Select your favourite sports</p>
+        <!-- Input tipe checkbox dengan nama dan nilai atribut yang berbeda -->
+        <input type="checkbox" name="sport1" value="cricket"> Cricket<br>
+        <input type="checkbox" name="sport2" value="tennis"> Tennis<br>
+        <input type="checkbox" name="sport3" value="football"> Football<br>
+        <input type="checkbox" name="sport4" value="baseball"> Baseball<br>
+        <input type="checkbox" name="sport5" value="badminton"> Badminton<br><br>
+        <!-- Tombol submit -->
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+
+    <!-- Form ketujuh dengan input tipe button yang menghasilkan peringatan saat diklik -->
+    <form>
+        <!-- Input tipe button dengan perintah JavaScript saat diklik -->
+        <input type="button" value="Click me " onclick="alert('you are learning HTML')">
+    </form>
+    <hr>
+
+    <!-- Form kedelapan dengan input tipe file untuk mengunggah file -->
+    <form>
+        <!-- Label untuk input "newfile" -->
+        <label>Select file to upload:</label>
+        <!-- Input tipe file dengan nama "newfile" -->
+        <input type="file" name="newfile">
+        <!-- Tombol submit -->
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+
+    <!-- Form kesembilan dengan input tipe image -->
+    <h2>Input "image" type.</h2>
+    <p>We can create an image as a submit button</p>
+    <form>
+        <!-- Label untuk input "name" -->
+        <label>User id:</label><br>
+        <!-- Input teks dengan nama "name" -->
+        <input type="text" name="name"><br><br>
+        <!-- Input tipe gambar dengan atribut "alt" dan "src" -->
+        <input type="image" alt="Submit" src="login.png" width="100px">
+    </form>
+    <hr>
+
+    <!-- Form kesepuluh dengan input tipe color -->
+    <form>
+        <!-- Label untuk memilih warna -->
+        <label>Pick your Favorite color: <br><br></label>
+        <!-- Input tipe color dengan nama dan nilai awal yang berbeda -->
+        <input type="color" name="upclick" value="#a52a2a"> Upclick<br><br>
+        <input type="color" name="downclick" value="#f5f5dc"> Downclick
+    </form>
+    <hr>
+
+    <!-- Form kesebelas dengan input tipe date -->
+    <form>
+        <!-- Label untuk memilih tanggal mulai dan selesai -->
+        <label>Select Start and End Date: <br><br></label>
+        <!-- Input tipe date dengan nama "Startdate" -->
+        <input type="date" name="Startdate"> Start date:<br><br>
+        <!-- Input tipe date dengan nama "Enddate" -->
+        <input type="date" name="Enddate"> End date:<br><br>
+        <!-- Tombol submit -->
+        <input type="submit">
+    </form>
+    <hr>
+
+    <!-- Form keduabelas dengan input tipe datetime-local -->
+    <form>
+        <!-- Label untuk memilih waktu dan tanggal pertemuan -->
+        <label>Select the meeting schedule: <br><br></label>
+        <!-- Input tipe datetime-local dengan nama "meetingdate" -->
+        <input type="datetime-local" name="meetingdate"> <br><br>
+        <!-- Tombol submit -->
+        <input type="submit">
+    </form>
+    <hr>
+
+    <!-- Form ketigabelas dengan input tipe email -->
+    <form>
+        <!-- Label untuk memasukkan alamat email -->
+        <label><b>Enter your Email-address</b></label>
+        <!-- Input tipe email dengan nama "email" dan atribut "required" -->
+        <input type="email" name="email" required>
+        <!-- Tombol submit -->
+        <input type="submit">
+        <!-- Paragraf dengan catatan tentang penggunaan multiple email addresses -->
+        <p><strong>Note:</strong> Users can also enter multiple email addresses separating by comma or whitespace as
+            following:</p>
+        <!-- Label untuk memasukkan beberapa alamat email -->
+        <label><b>Enter multiple Email-addresses</b></label>
+        <!-- Input tipe email dengan nama "email" dan atribut "multiple" -->
+        <input type="email" name="email" multiple>
+        <!-- Tombol submit -->
+        <input type="submit">
+    </form>
+    <hr>
+
+    <!-- Form keempatbelas dengan input tipe month -->
+    <form>
+        <!-- Label untuk memasukkan bulan dan tahun lahir -->
+        <label>Enter your Birth Month-year: </label>
+        <!-- Input tipe month dengan nama "newMonth" -->
+        <input type="month" name="newMonth">
+        <!-- Tombol submit -->
+        <input type="submit">
+    </form>
+    <hr>
+
+    <!-- Form kelima belas dengan input tipe number -->
+    <form>
+        <!-- Label untuk memasukkan usia -->
+        <label>Enter your age: </label>
+        <!-- Input tipe number dengan nama "num" dan atribut "min" serta "max" -->
+        <input type="number" name="num" min="50" max="80">
+        <!-- Tombol submit -->
+        <input type="submit">
+    </form>
+    <hr>
+
+    <!-- Form keenam belas dengan input tipe url -->
+    <form>
+        <!-- Label untuk memasukkan URL situs web -->
+        <label>Enter your website URL: </label>
+        <!-- Input tipe url dengan nama "website" dan atribut "placeholder" -->
+        <input type="url" name="website" placeholder="http://example.com"><br>
+        <!-- Tombol submit -->
+        <input type="submit" value="send data">
+    </form>
+    <hr>
+
+    <!-- Form ketujuh belas dengan input tipe week -->
+    <form>
+        <!-- Label untuk memilih minggu favorit dalam tahun -->
+        <label><b>Select your best week of the year:</b></label><br><br>
+        <!-- Input tipe week dengan nama "bestweek" -->
+        <input type="week" name="bestweek">
+        <!-- Tombol submit dengan teks "Send data" -->
+        <input type="submit" value="Send data">
+    </form>
+    <hr>
+
+    <!-- Form kedelapan belas dengan input tipe search -->
+    <form>
+        <!-- Label untuk melakukan pencarian -->
+        <label>Search here:</label>
+        <!-- Input tipe search dengan nama "q" -->
+        <input type="search" name="q">
+        <!-- Tombol submit dengan teks "search" -->
+        <input type="submit" value="search">
+    </form>
+    <hr>
+
+    <!-- Form kesembilan belas dengan input tipe tel -->
+    <form>
+        <!-- Label untuk memasukkan nomor telepon -->
+        <label><b>Enter your Telephone Number (in format of xxx-xxx-xxxx):</b></label>
+        <!-- Input tipe tel dengan nama "telephone", pola (pattern) untuk format telepon, dan atribut "required" -->
+        <input type="tel" name="telephone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <!-- Tombol submit -->
+        <input type="submit"><br><br>
+    </form>
+</body>
+
+</html>

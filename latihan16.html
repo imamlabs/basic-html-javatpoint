@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* CSS untuk mengatur tampilan elemen-elemen dalam body */
+        li {
+            display: inline-block;
+            /* Membuat daftar menjadi elemen inline-block */
+            padding: 10px;
+            /* Memberikan jarak padding 10px pada elemen daftar */
+        }
+
+        a {
+            color: #20b2aa;
+            /* Mengatur warna teks tautan */
+            text-decoration: none;
+            /* Menghapus dekorasi bawaan dari tautan */
+        }
+
+        li:hover {
+            background-color: #ff6a6a;
+            /* Mengubah latar belakang saat mouse diarahkan ke elemen daftar */
+            color: #e6e6fa;
+            /* Mengubah warna teks saat mouse diarahkan ke elemen daftar */
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <table width="100%" style="border-collapse:collapse;">
+        <tr>
+            <td colspan="2" style="background-color:#1a1a1a; text-align: center;">
+                <h3 style="font-size: 30px; color: #ff6a6a;">
+                    javaTpoint Table-layout
+                </h3>
+            </td>
+        </tr>
+        <!-- Nav Section -->
+        <tr>
+            <td colspan="2" style="background-color:#666666;">
+                <ul>
+                    <li><a href="#">Home</a></li> <!-- Elemen daftar tautan -->
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About-us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </td>
+        </tr>
+        <!-- Main Section -->
+        <tr>
+            <td style="background-color:#e6e6fa; width:80%; height: 400px; text-align: center;">
+                <p>Write your content Here</p> <!-- Elemen paragraf -->
+            </td>
+            <td style="background-color:#a7e6fb; height: 400px;">
+                <p>This is your side bar</p> <!-- Elemen paragraf -->
+            </td>
+        </tr>
+        <!-- Footer Section -->
+        <tr>
+            <td colspan="2" style="background-color:#2e2e2e; text-align: center;">
+                <p style="color:#f08080">©<strong>Copyright javaTpoint.com</strong></p> <!-- Elemen paragraf -->
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

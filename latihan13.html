@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Form pertama -->
+    <form>
+        <!-- Label untuk input -->
+        Enter your name <br>
+        <!-- Input teks dengan nama "username" -->
+        <input type="text" name="username">
+    </form>
+    <hr>
+
+    <!-- Form kedua -->
+    <form>
+        <!-- Label dan input untuk First Name -->
+        First Name: <input type="text" name="firstname" /> <br />
+        <!-- Label dan input untuk Last Name -->
+        Last Name: <input type="text" name="lastname" /> <br />
+    </form>
+    <hr>
+
+    <!-- Form ketiga dengan textarea -->
+    <form>
+        <!-- Label untuk textarea -->
+        Enter your address:<br>
+        <!-- Textarea dengan jumlah baris dan kolom -->
+        <textarea rows="2" cols="20"></textarea>
+    </form>
+    <hr>
+
+    <!-- Form keempat dengan label yang menggunakan "for" -->
+    <form>
+        <!-- Label dengan "for" dan "id" untuk First Name -->
+        <label for="firstname">First Name: </label> <br />
+        <!-- Input teks dengan "id" dan "name" untuk First Name -->
+        <input type="text" id="firstname" name="firstname" /> <br />
+        <!-- Label dengan "for" dan input untuk Last Name -->
+        <label for="lastname">Last Name: </label>
+        <input type="text" id="lastname" name="lastname" /> <br />
+    </form>
+    <hr>
+
+    <!-- Form kelima dengan input tipe password -->
+    <form>
+        <!-- Label dan input tipe password -->
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" /> <br />
+    </form>
+    <hr>
+
+    <!-- Form keenam dengan input tipe email -->
+    <form>
+        <!-- Label dan input tipe email -->
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" /> <br />
+    </form>
+    <hr>
+
+    <!-- Form ketujuh dengan input tipe radio -->
+    <form>
+        <!-- Label dan input tipe radio (gender: male) -->
+        <label for="gender">Gender: </label>
+        <input type="radio" id="gender" name="gender" value="male" />Male
+        <!-- Input tipe radio (gender: female) -->
+        <input type="radio" id="gender" name="gender" value="female" />Female <br />
+    </form>
+    <hr>
+
+    <!-- Form kedelapan dengan input tipe checkbox (Hobby) -->
+    <form>
+        <!-- Label dan input tipe checkbox (Cricket) -->
+        Hobby:<br>
+        <input type="checkbox" id="cricket" name="cricket" value="cricket" />
+        <label for="cricket">Cricket</label> <br>
+        <!-- Input tipe checkbox (Football) -->
+        <input type="checkbox" id="football" name="football" value="football" />
+        <label for="football">Football</label> <br>
+        <!-- Input tipe checkbox (Hockey) -->
+        <input type="checkbox" id="hockey" name="hockey" value="hockey" />
+        <label for="hockey">Hockey</label>
+    </form>
+    <hr>
+
+    <!-- Form kesembilan -->
+    <form>
+        <!-- Label dan input tipe teks (name) -->
+        <label for="name">Enter name</label><br>
+        <input type="text" id="name" name="name"><br>
+        <!-- Label dan input tipe password (pass) -->
+        <label for="pass">Enter Password</label><br>
+        <input type="Password" id="pass" name="pass"><br>
+        <!-- Tombol submit -->
+        <input type="submit" value="submit">
+    </form>
+    <hr>
+
+    <!-- Form kesepuluh dengan elemen fieldset dan legend -->
+    <form>
+        <!-- Fieldset dengan legend "User Information" -->
+        <fieldset>
+            <legend>User Information:</legend>
+            <!-- Label dan input tipe teks (name) -->
+            <label for="name">Enter name</label><br>
+            <input type="text" id="name" name="name"><br>
+            <!-- Label dan input tipe password (pass) -->
+            <label for="pass">Enter Password</label><br>
+            <input type="Password" id="pass" name="pass"><br>
+            <!-- Tombol submit -->
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    <hr>
+
+    <!-- Form kesebelas dengan fieldset, legend, input, textarea, dan radio -->
+    <h2>Registration form</h2>
+    <form>
+        <!-- Fieldset dengan legend "User personal information" -->
+        <fieldset>
+            <legend>User personal information</legend>
+            <!-- Label dan input tipe teks (name) -->
+            <label>Enter your full name</label><br>
+            <input type="text" name="name"><br>
+            <!-- Label dan input tipe email (email) -->
+            <label>Enter your email</label><br>
+            <input type="email" name="email"><br>
+            <!-- Label dan input tipe password (pass) -->
+            <label>Enter your password</label><br>
+            <input type="password" name="pass"><br>
+            <!-- Label dan input tipe password (pass) untuk konfirmasi -->
+            <label>confirm your password</label><br>
+            <input type="password" name="pass"><br>
+            <br>
+            <!-- Label dan input tipe radio (gender) -->
+            <label>Enter your gender</label><br>
+            <input type="radio" id="gender" name="gender" value="male" />Male <br>
+            <input type="radio" id="gender" name="gender" value="female" />Female <br />
+            <input type="radio" id="gender" name="gender" value="others" />others <br />
+            <br>
+            <!-- Label dan textarea untuk alamat -->
+            Enter your Address:<br>
+            <textarea></textarea><br>
+            <!-- Tombol submit -->
+            <input type="submit" value="sign-up">
+        </fieldset>
+    </form>
+    <hr>
+
+    <!-- Form kedua belas dengan table, label, dan input -->
+    <form action="#">
+        <table>
+            <tr>
+                <td class="tdLabel">
+                    <!-- Label untuk input nama "name" -->
+                    <label for="register_name" class="label">
